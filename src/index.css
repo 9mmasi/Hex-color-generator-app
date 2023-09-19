@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&family=Poltawski+Nowy:wght@600&display=swap');
+.container{
+  
+  padding: 6rem 4rem;
+
+  
+
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Croissant One', cursive;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+form > .error{
+  border: 1px solid red;
+  height: 30px;
+  width: 190px;
+  color: #0f0f0f;
+  border-radius: 2px;
+  background-color:rgb(121, 180, 180);
+}
+form > .input{
+    background-color:rgb(121, 180, 180);
+    border: 0px solid;
+    height: 30px;
+    width: 190px;
+    color: #0f0f0f;
+    border-radius: 2px;
+    
+}
+form > button{
+  height: 30px;
+  width: 90px;
+  background: #020024;
+  color:#fff;
+  border: none;
+  margin-left: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+*:focus{
+  outline: none;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  margin-left:2rem ;
+  width: 90vw;
+  margin-top: 3rem;
+}
+.colorvalue{
+height: 200px;
+width: 15%;
+position: relative;
+
+
+}
+.colorvalue > .hex{
+  position: absolute;
+  top:180px;
+  left: 110px;
+  right:0;
+  bottom: 12;
+  transform: translate(50% -50%);
+  
+}
+
+@media  screen and (max-width:800px) {
+  .container{
+    padding: 3rem 2rem;
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  form > .input{
+    background-color:rgb(121, 180, 180);
+    border: 0px solid;
+    height: 30px;
+    width: 120px;
+    color: #0f0f0f;
+    border-radius: 2px;
+    margin: auto;
+    
+}
+form > button{
+  height: 30px;
+  width: 60px;
+  background: #464469;
+  color:#fff;
+  border: none;
+  margin-left: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 10px;
+  margin-top: 9px;
+}
+.list{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  margin-left:2rem ;
+  width: 60vw;
+  margin-top: 3rem;
+}
+.colorvalue{
+  height: 100px;
+  width: 70vw;
+  position: relative;
+  
+  
+  }
+  .colorvalue > .hex{
+    position: absolute;
+    top:80px;
+    left: 0px;
+    right:0;
+    bottom:0;
+    transform: translate(50% -50%);
+    
+    
+  }
+  body{
+    background-color: #1f5355;
+  }
+  label{
+    color: #fff;
+  }
+  
+}
+
+  
